@@ -1,0 +1,11 @@
+{
+    "composer-plugins": {
+        "magento/composer-root-update-plugin": true
+    },
+    "http-basic": {
+        "repo.magento.com": {
+            "username": "<your-public-key>",
+            "password": "<your-private-key>"
+        }
+    }
+}
